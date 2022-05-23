@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: RotatorStarter
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":106.1535,"y":69.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-284.0,"y":-177.0},"guid":"f0d156e5-0b72-4a34-b943-3794e84f9f49","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-486.0,"y":127.0},"guid":"9ba458c9-64e8-491d-9ed0-fdc0771b40ba","$version":"A","$type":"Unity.VisualScripting.Update"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Rotator":{"$content":2.0,"$type":"System.Single"}},"position":{"x":61.0,"y":-90.0},"guid":"0bdb8ff2-123a-45ce-aba8-b9f08ad3b24e","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"GameObject","$type":"System.String"}},"position":{"x":-326.0,"y":-44.0},"guid":"1909ff36-dd68-4290-a087-808d7fc03f7e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Rotation","$type":"System.String"}},"position":{"x":-255.0,"y":87.0},"guid":"44d50b63-1156-4045-971a-5764b5c17a4c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"Start","guid":"38ca0a5c-1b80-4afa-a9af-43ee08c6ec16","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"RotateObject","guid":"989e21e3-9b67-47e9-9333-398040263806","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"Rotator","guid":"fcc42a34-401b-47e4-9a7b-3f6290ba28d9","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b704a2cfd9d884d4f8d1c6c4101f482f, type: 2}

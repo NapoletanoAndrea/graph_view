@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: New State Graph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":86.0,"y":-21.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":204.0,"y":52.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"f703d039-dadf-411e-a212-d3dc482f8c70","$version":"A","$type":"Unity.VisualScripting.OnEnterState","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":-161.0,"y":-38.0},"guid":"c59387c1-db81-4d98-b545-a04d8761ab34","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-237.0,"y":255.0},"guid":"0d24e6e2-8ff0-40c4-90bf-2851b0827136","$version":"A","$type":"Unity.VisualScripting.OnExitState"},{"coroutine":false,"defaultValues":{},"position":{"x":-171.0,"y":96.0},"guid":"f5f94e30-5247-4a36-83b5-d9e323c74944","$version":"A","$type":"Unity.VisualScripting.FixedUpdate"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":120.0,"y":-60.0},"guid":"e08b6cdd-0707-4549-a196-00cda5c258ac","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"FlowInput","guid":"5f8c995c-2404-46e7-88a3-2161361a6cdb","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-234.0,"y":-111.0},"width":170.0,"guid":"4678b4ee-a984-496f-ac76-e958e5d29652","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ba880e8b37dea5e448c6c06b2867212e, type: 2}
